@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  frequency: 1.5
+  modulation: MyString
+  radio: MyString
+  date: MyString
+  comment: MyString
+
+two:
+  frequency: 1.5
+  modulation: MyString
+  radio: MyString
+  date: MyString
+  comment: MyString

@@ -1,0 +1,6 @@
+ruby script/generate scaffold frequency frequency:float modulation:string radio:string date:string comment:string
+
+cp ~/ruby/code/depot_a/db/migrate/20080601000002_add_price_to_product.rb db/migrate/add_radio_to_frequency.rb
+
+rake db:migrate
+

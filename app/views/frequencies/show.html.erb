@@ -1,0 +1,28 @@
+<p>
+  <b>Frequency:</b>
+  <%=h @frequency.frequency %>
+</p>
+
+<p>
+  <b>Modulation:</b>
+  <%=h @frequency.modulation %>
+</p>
+
+<p>
+  <b>Radio:</b>
+  <%=h @frequency.radio %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%=h @frequency.date %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%=h @frequency.comment %>
+</p>
+
+
+<%= link_to 'Edit', edit_frequency_path(@frequency) %> |
+<%= link_to 'Back', frequencies_path %>

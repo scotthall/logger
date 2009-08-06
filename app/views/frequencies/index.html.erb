@@ -1,0 +1,51 @@
+<h1>Listing frequencies</h1>
+
+<table>
+  <tr>
+    <th>QFrequency</th>
+    <th>Modulation</th>
+    <th>Radio</th>
+    <th>Antenna</th>
+    <th>Date</th>
+
+    <th>Call</th>
+    <th>Digital Mode</th>
+    <th>Own RST</th>
+    <th>Peer's RST</th>
+    <th>S Meter</th>
+    <th>Name</th>
+    <th>QTH</th>
+    <th>Locator</th>
+
+    <th>Comment</th>
+  </tr>
+
+<% for frequency in @frequencies %>
+  <tr>
+    <td><%=h frequency.frequency %></td>
+    <td><%=h frequency.modulation %></td>
+    <td><%=h frequency.radio %></td>
+    <td><%=h frequency.antenna %></td>
+    <td><%=h frequency.date %></td>
+
+    <td><%=h frequency.call %></td>
+    <td><%=h frequency.digimode %></td>
+    <td><%=h frequency.own_station_rst %></td>
+    <td><%=h frequency.peer_station_rst %></td>
+    <td><%=h frequency.s_meter %></td>
+    <td><%=h frequency.name %></td>
+    <td><%=h frequency.qth %></td>
+    <td><%=h frequency.locator %></td>
+
+    <td><%=h frequency.comment %></td>
+    <td><%= link_to 'Show', frequency %></td>
+    <td><%= link_to 'Edit', edit_frequency_path(frequency) %></td>
+    <td><%= link_to 'Destroy', frequency, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New frequency', new_frequency_path %>
+<%= button_to 'New frequency', new_frequency_path %>

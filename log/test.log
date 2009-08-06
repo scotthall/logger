@@ -1,0 +1,70 @@
+  [4;36;1mSQL (0.000289)[0m   [0;1mSELECT count(*) AS count_all FROM "frequencies" [0m
+
+
+Processing FrequenciesController#create (for 0.0.0.0 at 2009-08-05 15:35:23) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"frequencies", "frequency"=>{}}
+  [4;35;1mFrequency Create (0.000473)[0m   [0mINSERT INTO "frequencies" ("peer_station_rst", "s_meter", "name", "locator", "updated_at", "date", "antenna", "own_station_rst", "radio", "qth", "call", "comment", "frequency", "modulation", "created_at", "digimode") VALUES(NULL, NULL, NULL, NULL, '2009-08-05 19:35:23', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2009-08-05 19:35:23', NULL)[0m
+Redirected to http://test.host/frequencies/996332878
+Completed in 0.00768 (130 reqs/sec) | DB: 0.00170 (22%) | 302 Found [http://test.host/frequencies?]
+  [4;36;1mSQL (0.000174)[0m   [0;1mSELECT count(*) AS count_all FROM "frequencies" [0m
+  [4;35;1mSQL (0.000363)[0m   [0mSELECT count(*) AS count_all FROM "frequencies" [0m
+  [4;36;1mFrequency Load (0.000359)[0m   [0;1mSELECT * FROM "frequencies" WHERE ("frequencies"."id" = 953125641) [0m
+
+
+Processing FrequenciesController#destroy (for 0.0.0.0 at 2009-08-05 15:35:23) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"frequencies"}
+  [4;35;1mFrequency Load (0.000417)[0m   [0mSELECT * FROM "frequencies" WHERE ("frequencies"."id" = 953125641) [0m
+  [4;36;1mFrequency Destroy (0.000322)[0m   [0;1m DELETE FROM "frequencies"
+ WHERE "id" = 953125641
+[0m
+Redirected to http://test.host/frequencies
+Completed in 0.00183 (547 reqs/sec) | DB: 0.00163 (89%) | 302 Found [http://test.host/frequencies/953125641]
+  [4;35;1mSQL (0.000174)[0m   [0mSELECT count(*) AS count_all FROM "frequencies" [0m
+  [4;36;1mFrequency Load (0.000508)[0m   [0;1mSELECT * FROM "frequencies" WHERE ("frequencies"."id" = 953125641) [0m
+
+
+Processing FrequenciesController#edit (for 0.0.0.0 at 2009-08-05 15:35:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"frequencies"}
+  [4;35;1mFrequency Load (0.000394)[0m   [0mSELECT * FROM "frequencies" WHERE ("frequencies"."id" = 953125641) [0m
+Rendering template within layouts/frequencies
+Rendering frequencies/edit
+Completed in 0.00597 (167 reqs/sec) | Rendering: 0.00509 (85%) | DB: 0.00108 (18%) | 200 OK [http://test.host/frequencies/953125641/edit]
+
+
+Processing FrequenciesController#index (for 0.0.0.0 at 2009-08-05 15:35:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"frequencies"}
+  [4;36;1mFrequency Load (0.000569)[0m   [0;1mSELECT * FROM "frequencies" [0m
+Rendering template within layouts/frequencies
+Rendering frequencies/index
+Completed in 0.00550 (181 reqs/sec) | Rendering: 0.00420 (76%) | DB: 0.00057 (10%) | 200 OK [http://test.host/frequencies]
+
+
+Processing FrequenciesController#new (for 0.0.0.0 at 2009-08-05 15:35:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"frequencies"}
+Rendering template within layouts/frequencies
+Rendering frequencies/new
+Completed in 0.00818 (122 reqs/sec) | Rendering: 0.00772 (94%) | DB: 0.00000 (0%) | 200 OK [http://test.host/frequencies/new]
+  [4;35;1mFrequency Load (0.000451)[0m   [0mSELECT * FROM "frequencies" WHERE ("frequencies"."id" = 953125641) [0m
+
+
+Processing FrequenciesController#show (for 0.0.0.0 at 2009-08-05 15:35:23) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"frequencies"}
+  [4;36;1mFrequency Load (0.000362)[0m   [0;1mSELECT * FROM "frequencies" WHERE ("frequencies"."id" = 953125641) [0m
+Rendering template within layouts/frequencies
+Rendering frequencies/show
+Completed in 0.00290 (344 reqs/sec) | Rendering: 0.00188 (64%) | DB: 0.00081 (28%) | 200 OK [http://test.host/frequencies/953125641]
+  [4;35;1mFrequency Load (0.000461)[0m   [0mSELECT * FROM "frequencies" WHERE ("frequencies"."id" = 953125641) [0m
+
+
+Processing FrequenciesController#update (for 0.0.0.0 at 2009-08-05 15:35:23) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"953125641", "controller"=>"frequencies", "frequency"=>{}}
+  [4;36;1mFrequency Load (0.000415)[0m   [0;1mSELECT * FROM "frequencies" WHERE ("frequencies"."id" = 953125641) [0m
+Redirected to http://test.host/frequencies/953125641
+Completed in 0.00187 (535 reqs/sec) | DB: 0.00088 (46%) | 302 Found [http://test.host/frequencies/953125641?]
