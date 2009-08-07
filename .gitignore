@@ -5,3 +5,5 @@ tmp/**/*
 doc/api
 doc/app
 doc/plugins
+.emacs.desktop
+.emacs.desktop.lock
