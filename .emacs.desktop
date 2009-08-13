@@ -2,9 +2,9 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Aug  6 13:14:22 2009
+;; Created Wed Aug 12 22:03:31 2009
 ;; Desktop file format version 206
-;; Emacs version 22.3.2
+;; Emacs version 22.3.1
 
 ;; Global section:
 (setq desktop-missing-file-warning nil)
@@ -16,18 +16,84 @@
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/Users/scotthall/ruby/radio/qso-log/app/controllers/log_controller.rb"
-  "log_controller.rb"
-  'ruby-mode
+  "/home/shall/ruby/radio/qso-log/app/views/frequencies/new.html.erb"
+  "new.html.erb"
+  'html-mode
   nil
-  437
-  '(350 t)
+  255
+  '(8 t)
+  nil
+  nil
+  '((buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/app/views/frequencies/index.html.erb"
+  "index.html.erb"
+  'html-mode
+  nil
+  217
+  '(161 t)
+  nil
+  nil
+  '((buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/app/views/frequencies/find.html.erb"
+  "find.html.erb"
+  'html-mode
+  nil
+  256
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/info/ruby-notes.txt"
+  "ruby-notes.txt"
+  'text-mode
+  nil
+  539
+  '(12174 t)
+  nil
+  nil
+  '((buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/config/environment.rb"
+  "environment.rb"
+  'text-mode
+  nil
+  323
+  '(318 t)
+  nil
+  nil
+  '((buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/app/controllers/frequencies_controller.rb"
+  "frequencies_controller.rb"
+  'text-mode
+  nil
+  2147
+  '(1736 t)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . raw-text-unix)))
 
 (desktop-create-buffer 206
-  "/Users/scotthall/ruby/radio/qso-log/app/views/log/find.html.erb"
+  "/home/shall/info/wireless-notes.txt"
+  "wireless-notes.txt"
+  'text-mode
+  nil
+  104
+  '(104 t)
+  nil
+  nil
+  '((buffer-file-coding-system . raw-text)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/app/views/log/find.html.erb"
   "find.html.erb<2>"
   'html-mode
   nil
@@ -38,101 +104,35 @@
   '((buffer-file-coding-system . raw-text-unix)))
 
 (desktop-create-buffer 206
-  "/Users/scotthall/ruby/radio/qso-log/config/routes.rb"
-  "routes.rb"
-  'ruby-mode
+  "/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb"
+  "log_controller.rb"
+  'text-mode
   nil
-  562
+  334
+  '(350 t)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/config/routes.rb"
+  "routes.rb"
+  'text-mode
+  nil
+  437
   '(78 t)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . raw-text-unix)))
 
 (desktop-create-buffer 206
-  "/Users/scotthall/ruby/radio/qso-log/app/views/log/index.html.erb"
+  "/home/shall/ruby/radio/qso-log/app/views/log/index.html.erb"
   "index.html.erb<2>"
   'html-mode
   nil
-  107
+  122
   '(100 nil)
   nil
   nil
   '((buffer-file-coding-system . raw-text-unix)))
-
-(desktop-create-buffer 206
-  "/Users/scotthall/ruby/radio/qso-log/app/controllers/frequencies_controller.rb"
-  "frequencies_controller.rb"
-  'ruby-mode
-  nil
-  1764
-  '(1736 t)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . raw-text-unix)))
-
-(desktop-create-buffer 206
-  "/Users/scotthall/ruby/radio/qso-log/app/views/frequencies/find.html.erb"
-  "find.html.erb"
-  'html-mode
-  nil
-  163
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . raw-text-unix)))
-
-(desktop-create-buffer 206
-  "/Users/scotthall/info/ruby-notes.txt"
-  "ruby-notes.txt"
-  'text-mode
-  nil
-  758
-  '(16780 t)
-  nil
-  nil
-  '((buffer-file-coding-system . raw-text-unix)))
-
-(desktop-create-buffer 206
-  "/Users/scotthall/logger-notes.txt"
-  "logger-notes.txt"
-  'text-mode
-  nil
-  12145
-  '(10360 t)
-  nil
-  nil
-  '((buffer-file-coding-system . raw-text-unix)))
-
-(desktop-create-buffer 206
-  "/Users/scotthall/ruby/radio/qso-log/app/views/frequencies/index.html.erb"
-  "index.html.erb"
-  'html-mode
-  nil
-  711
-  '(161 t)
-  nil
-  nil
-  '((buffer-file-coding-system . raw-text-unix)))
-
-(desktop-create-buffer 206
-  "/Users/scotthall/ruby/radio/qso-log/app/views/frequencies/new.html.erb"
-  "new.html.erb"
-  'html-mode
-  nil
-  645
-  '(8 t)
-  nil
-  nil
-  '((buffer-file-coding-system . raw-text-unix)))
-
-(desktop-create-buffer 206
-  "/Users/scotthall/radio/log.txt"
-  "log.txt"
-  'text-mode
-  nil
-  28436
-  '(28378 t)
-  nil
-  nil
-  '((buffer-file-coding-system . raw-text-dos)))
 

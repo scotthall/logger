@@ -8,3 +8,55 @@ create db/migrate/add_antenna_to_frequency.rb
 
 rake db:migrate
 
+git commit -m "blah blah blah"
+
+git push
+
+# page----------------------------------------------------------------------- #
+
+  100  git
+  101  git --version
+  303  which git
+  393  which git
+  394  git config --global user.name "Scott Hall"
+  395  git config --global user.email scott@distantmusic.com
+  405  git init
+  407  git add README 
+  408  git commit -m 'first commit'
+  409  git remote add origin git@github.com:scotthall/logger.git
+  410  git push origin master
+  413  git init
+  414  git remote add origin git@github.com:scotthall/logger.git
+  415  git fetch
+  416  git branch master origin/master
+  417  git checkout master
+  419  git checkout master
+  421  git add --all
+  422  git add
+  423  git add .
+  424  git commit -m "first real commit"
+  425  git push origin
+  426  git add .gitignore
+  427  git commit
+  428  git commit "Add .gitignore"
+  429  git commit -m "Add .gitignore"
+  430  git push
+  432  git rm app/controllers/frequencies_controller.rb.~1~
+  433  git rm ./app/controllers/log_controller.rb.~1~ ./app/views/frequencies/fin
+d.html.erb.~1~ ./app/views/frequencies/index.html.erb.~1~ ./app/views/frequencies
+/index.html.erb.~2~ ./app/views/frequencies/log.html.erb.~1~ ./app/views/frequenc
+ies/new.html.erb.~1~ ./app/views/log/index.html.erb.~1~ ./db/migrate/200908050000
+01_add_call_digimode_rst_name_qth_locator_to_frequency.rb.~1~ ./notes.txt.~1~
+  434  git commit
+  435  git commit -m "Remove emacs tilde files."
+  436  git push
+  453  git commit -m "Routing fix to allow route to find a freq"
+  454  git commit -m "Routing fix to allow route to find a freq"
+  455  git -?
+  456  git --help
+  457  git --help commit
+  458  git commit -m "Routing fix to allow route to find a freq"
+  459  git commit -a -m "Routing fix to allow route to find a freq"
+  461  history | grep git
+  462  git push
+  466  git --help commit
