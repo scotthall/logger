@@ -5567,3 +5567,1714 @@ Processing LogController#find (for 127.0.0.1 at 2009-08-13 14:55:20) [POST]
   [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = @search_freq) [0m
 Rendering log/find
 Completed in 31ms (View: 4, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-13 15:05:43) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (0.7ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = @search_freq) [0m
+Rendering log/find
+Completed in 55ms (View: 5, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#index (for 127.0.0.1 at 2009-08-16 21:27:32) [GET]
+Rendering log/index
+Completed in 52ms (View: 49, DB: 0) | 200 OK [http://localhost/log]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:27:35) [GET]
+Rendering log/find
+Completed in 86ms (View: 13, DB: 0) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:27:38) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (1.4ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = @search_freq) [0m
+Rendering log/find
+Completed in 23ms (View: 5, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing ApplicationController#find (for 127.0.0.1 at 2009-08-16 21:29:29) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+
+SyntaxError (/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb:27: syntax error):
+  
+
+Rendered rescues/_trace (75.6ms)
+Rendered rescues/_request_and_response (2.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:29:58) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (0.9ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = @search_freq) [0m
+Rendering log/find
+Completed in 18ms (View: 4, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:31:31) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = @search_freq) [0m
+Rendering log/find
+Completed in 25ms (View: 8, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:36:23) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (1.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = @search_freq) [0m
+Rendering log/find
+
+ActionView::TemplateError (`@12.34' is not allowed as an instance variable name) on line #8 of app/views/log/find.html.erb:
+5: <%= printf("************* FIND.HTML.ERB %s *************\n", @search_freq) %>
+6: 
+7: <% form_for(@search_freq) do |f| %>
+8:   <%= f.error_messages %>
+9: 
+10:   <p>
+11:     <%= f.label :search_freq %><br />
+
+    app/views/log/find.html.erb:8
+    app/views/log/find.html.erb:7
+
+Rendered rescues/_trace (197.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:37:24) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = 12.43) [0m
+Rendering log/find
+Completed in 18ms (View: 5, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:38:39) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (1.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = 12.43) [0m
+Rendering log/find
+Completed in 19ms (View: 4, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:40:06) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (2.9ms)[0m   [0;1mSELECT * FROM "frequencies" [0m
+Rendering log/find
+Completed in 43ms (View: 5, DB: 3) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:41:22) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (5.3ms)[0m   [0mSELECT * FROM "frequencies" [0m
+  [4;36;1mFrequency Load (0.4ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = 12.430000) [0m
+Rendering log/find
+Completed in 55ms (View: 4, DB: 6) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:42:15) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (2.9ms)[0m   [0mSELECT * FROM "frequencies" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "frequencies" [0m
+Rendering log/find
+Completed in 41ms (View: 5, DB: 3) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:42:37) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (2.9ms)[0m   [0mSELECT * FROM "frequencies" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "frequencies" [0m
+Rendering log/find
+Completed in 53ms (View: 7, DB: 3) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:43:08) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (2.9ms)[0m   [0mSELECT * FROM "frequencies" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "frequencies" [0m
+Rendering log/find
+Completed in 44ms (View: 5, DB: 3) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:44:35) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (3.1ms)[0m   [0mSELECT * FROM "frequencies" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "frequencies" [0m
+Rendering log/find
+Completed in 51ms (View: 4, DB: 3) | 200 OK [http://localhost/log/find]
+
+
+Processing ApplicationController#find (for 127.0.0.1 at 2009-08-16 21:45:00) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+
+SyntaxError (/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb:52: syntax error
+        Frequency.find(:all), :conditions => "frequency = 12.43")
+                                            ^
+/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb:52: syntax error):
+  
+
+Rendered rescues/_trace (74.5ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-16 21:45:46) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (2.8ms)[0m   [0mSELECT * FROM "frequencies" [0m
+  [4;36;1mFrequency Load (0.6ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = 12.43) [0m
+Rendering log/find
+Completed in 42ms (View: 5, DB: 3) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:24:13) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (3.5ms)[0m   [0;1mSELECT * FROM "frequencies" [0m
+
+NameError (undefined local variable or method `frequencies' for #<LogController:0xb7b3452c>):
+  app/controllers/log_controller.rb:26:in `find'
+
+Rendered rescues/_trace (83.1ms)
+Rendered rescues/_request_and_response (3.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:24:30) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (2.9ms)[0m   [0mSELECT * FROM "frequencies" [0m
+
+NameError (undefined local variable or method `frequencies' for #<LogController:0xb790c8e4>):
+  app/controllers/log_controller.rb:26:in `find'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:24:44) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (2.9ms)[0m   [0;1mSELECT * FROM "frequencies" [0m
+  [4;35;1mFrequency Load (0.6ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = 12.43) [0m
+Rendering log/find
+Completed in 119ms (View: 81, DB: 3) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:27:18) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (2.9ms)[0m   [0;1mSELECT * FROM "frequencies" [0m
+  [4;35;1mFrequency Load (0.4ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = 12.43) [0m
+Rendering log/find
+Completed in 39ms (View: 3, DB: 3) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:28:17) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (5.2ms)[0m   [0;1mSELECT * FROM "frequencies" [0m
+  [4;35;1mFrequency Load (0.4ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = 12.43) [0m
+Rendering log/find
+Completed in 125ms (View: 28, DB: 6) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:30:32) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (3.3ms)[0m   [0;1mSELECT * FROM "frequencies" [0m
+  [4;35;1mFrequency Load (0.5ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = 12.43) [0m
+Rendering log/find
+Completed in 51ms (View: 5, DB: 4) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:31:16) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (3.2ms)[0m   [0;1mSELECT * FROM "frequencies" [0m
+  [4;35;1mFrequency Load (0.4ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = 12.43) [0m
+Rendering log/find
+Completed in 38ms (View: 3, DB: 4) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:33:05) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (0.0ms)[0m   [0;1mSQLite3::SQLException: near "[:search_freq]": syntax error: SELECT * FROM "frequencies" WHERE (frequency = params[:search_freq]) [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "[:search_freq]": syntax error: SELECT * FROM "frequencies" WHERE (frequency = params[:search_freq]) ):
+  app/controllers/log_controller.rb:23:in `find'
+
+Rendered rescues/_trace (96.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:34:27) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (0.0ms)[0m   [0mSQLite3::SQLException: no such column: search_freq: SELECT * FROM "frequencies" WHERE (frequency = search_freq) [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: search_freq: SELECT * FROM "frequencies" WHERE (frequency = search_freq) ):
+  app/controllers/log_controller.rb:24:in `find'
+
+Rendered rescues/_trace (170.8ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:35:26) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such column: search_freq: SELECT * FROM "frequencies" WHERE (frequency = search_freq) [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: search_freq: SELECT * FROM "frequencies" WHERE (frequency = search_freq) ):
+  app/controllers/log_controller.rb:24:in `find'
+
+Rendered rescues/_trace (95.2ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:37:10) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (0.9ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = :search_freq) [0m
+  [4;36;1mFrequency Load (0.5ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = 12.43) [0m
+Rendering log/find
+Completed in 21ms (View: 5, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:38:06) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (0.0ms)[0m   [0mSQLite3::SQLException: unrecognized token: ":": SELECT * FROM "frequencies" WHERE (frequency = : params[:search_freq]) [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: unrecognized token: ":": SELECT * FROM "frequencies" WHERE (frequency = : params[:search_freq]) ):
+  app/controllers/log_controller.rb:26:in `find'
+
+Rendered rescues/_trace (93.5ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:38:16) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (0.0ms)[0m   [0;1mSQLite3::SQLException: near "[:search_freq]": syntax error: SELECT * FROM "frequencies" WHERE (frequency = :params[:search_freq]) [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "[:search_freq]": syntax error: SELECT * FROM "frequencies" WHERE (frequency = :params[:search_freq]) ):
+  app/controllers/log_controller.rb:26:in `find'
+
+Rendered rescues/_trace (97.1ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:38:43) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (1.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = :search_freq) [0m
+  [4;36;1mFrequency Load (0.4ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = 12.43) [0m
+Rendering log/find
+Completed in 24ms (View: 5, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:40:27) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (0.9ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = :search_freq) [0m
+  [4;36;1mFrequency Load (0.4ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = 12.43) [0m
+Rendering log/find
+Completed in 21ms (View: 5, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:41:43) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (1.1ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = :search_freq) [0m
+  [4;36;1mFrequency Load (0.5ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = 12.43) [0m
+Rendering log/find
+Completed in 30ms (View: 5, DB: 2) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:44:28) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (0.9ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = ':search_freq') [0m
+  [4;36;1mFrequency Load (0.4ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = 12.43) [0m
+Rendering log/find
+Completed in 21ms (View: 5, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:44:48) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (3.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = ':search_freq') [0m
+  [4;36;1mFrequency Load (0.5ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '12.43') [0m
+Rendering log/find
+Completed in 30ms (View: 10, DB: 4) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:45:16) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (0.9ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = ':search_freq') [0m
+  [4;36;1mFrequency Load (3.6ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '12.34') [0m
+Rendering log/find
+Completed in 55ms (View: 10, DB: 5) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:49:23) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (1.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = :search_freq) [0m
+  [4;36;1mFrequency Load (1.7ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '12.34') [0m
+Rendering log/find
+Completed in 118ms (View: 4, DB: 3) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 08:50:07) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+
+NoMethodError (undefined method `value' for "12.34":String):
+  app/controllers/log_controller.rb:23:in `find'
+
+Rendered rescues/_trace (83.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 16:41:17) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (2.1ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '12.34') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '12.34') [0m
+Rendering log/find
+Completed in 45ms (View: 5, DB: 2) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 16:45:38) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (2.9ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '12.34') [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '12.34') [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '12.34') [0m
+Rendering log/find
+Completed in 47ms (View: 5, DB: 3) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:23:13) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;36;1mFrequency Load (2.1ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '12.34') [0m
+Rendering log/find
+Completed in 44ms (View: 7, DB: 2) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:23:52) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"11111"}
+  [4;35;1mFrequency Load (0.9ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '11111') [0m
+Rendering not-found
+
+ActionView::MissingTemplate (Missing template not-found.erb in view path app/views):
+  app/controllers/log_controller.rb:31:in `find'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#index (for 127.0.0.1 at 2009-08-17 17:24:56) [GET]
+Rendering log/index
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/log]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:24:59) [GET]
+Rendering log/find
+Completed in 82ms (View: 18, DB: 0) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:25:07) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"11111"}
+  [4;36;1mFrequency Load (1.3ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '11111') [0m
+Rendering not-found
+
+ActionView::MissingTemplate (Missing template not-found.erb in view path app/views):
+  app/controllers/log_controller.rb:31:in `find'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:26:56) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"11111"}
+  [4;35;1mFrequency Load (1.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '11111') [0m
+Rendering log/not_found.html.erb
+Completed in 38ms (View: 20, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#index (for 127.0.0.1 at 2009-08-17 17:27:03) [GET]
+Rendering log/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/log]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:27:06) [GET]
+Rendering log/find
+Completed in 15ms (View: 5, DB: 0) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:27:09) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found.html.erb
+Completed in 20ms (View: 3, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:27:24) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;35;1mFrequency Load (1.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+Completed in 17ms (View: 2, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:27:37) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;36;1mFrequency Load (0.9ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+Completed in 28ms (View: 10, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:28:28) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;35;1mFrequency Load (1.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+Completed in 25ms (View: 11, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#log (for 127.0.0.1 at 2009-08-17 17:28:29) [GET]
+
+ActionController::UnknownAction (No action responded to log. Actions: find and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:28:45) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+Completed in 96ms (View: 11, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:28:47) [GET]
+Rendering log/find
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:30:05) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;35;1mFrequency Load (1.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+Completed in 29ms (View: 13, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:31:45) [GET]
+Rendering log/find
+Completed in 14ms (View: 5, DB: 0) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:31:51) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+ERROR: compiling _run_erb_app47views47log47not_found46html46erb RAISED compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...quency params[:search_freq]Not found<br> ).to_s); @output_bu...
+                              ^
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...s[:search_freq]Not found<br> ).to_s); @output_buffer.concat ...
+                              ^
+Function body:           def _run_erb_app47views47log47not_found46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Find Freq Entry</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( Frequency params[:search_freq]Not found<br> ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'Back', :action => "find" ).to_s); @output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:11:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb:31:in `find'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...quency params[:search_freq]Not found<br> ).to_s); @output_bu...
+                              ^
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...s[:search_freq]Not found<br> ).to_s); @output_buffer.concat ...
+                              ^) on line #5 of app/views/log/not_found.html.erb:
+2: 
+3: <%= printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) %>
+4: 
+5: <%= Frequency params[:search_freq]Not found<br> %>
+6: 
+7: <%= link_to 'Back', :action => "find" %>
+
+    app/views/log/not_found.html.erb:11:in `compile!'
+    app/controllers/log_controller.rb:31:in `find'
+
+Rendered rescues/_trace (105.6ms)
+Rendered rescues/_request_and_response (2.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:32:32) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;35;1mFrequency Load (1.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+ERROR: compiling _run_erb_app47views47log47not_found46html46erb RAISED compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...uency params[:search_freq] Not found<br> ).to_s); @output_bu...
+                              ^
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...[:search_freq] Not found<br> ).to_s); @output_buffer.concat ...
+                              ^
+Function body:           def _run_erb_app47views47log47not_found46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Find Freq Entry</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( Frequency params[:search_freq] Not found<br> ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'Back', :action => "find" ).to_s); @output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:11:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb:31:in `find'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...uency params[:search_freq] Not found<br> ).to_s); @output_bu...
+                              ^
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...[:search_freq] Not found<br> ).to_s); @output_buffer.concat ...
+                              ^) on line #5 of app/views/log/not_found.html.erb:
+2: 
+3: <%= printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) %>
+4: 
+5: <%= Frequency params[:search_freq] Not found<br> %>
+6: 
+7: <%= link_to 'Back', :action => "find" %>
+
+    app/views/log/not_found.html.erb:11:in `compile!'
+    app/controllers/log_controller.rb:31:in `find'
+
+Rendered rescues/_trace (181.0ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:32:50) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+ERROR: compiling _run_erb_app47views47log47not_found46html46erb RAISED compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...ency :params[:search_freq] Not found<br> ).to_s); @output_bu...
+                              ^
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...[:search_freq] Not found<br> ).to_s); @output_buffer.concat ...
+                              ^
+Function body:           def _run_erb_app47views47log47not_found46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Find Freq Entry</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( Frequency :params[:search_freq] Not found<br> ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'Back', :action => "find" ).to_s); @output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:11:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb:31:in `find'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...ency :params[:search_freq] Not found<br> ).to_s); @output_bu...
+                              ^
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...[:search_freq] Not found<br> ).to_s); @output_buffer.concat ...
+                              ^) on line #5 of app/views/log/not_found.html.erb:
+2: 
+3: <%= printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) %>
+4: 
+5: <%= Frequency :params[:search_freq] Not found<br> %>
+6: 
+7: <%= link_to 'Back', :action => "find" %>
+
+    app/views/log/not_found.html.erb:11:in `compile!'
+    app/controllers/log_controller.rb:31:in `find'
+
+Rendered rescues/_trace (106.0ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:34:07) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;35;1mFrequency Load (0.9ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+ERROR: compiling _run_erb_app47views47log47not_found46html46erb RAISED compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...ency :params[:search_freq] Not found ).to_s); @output_buffer...
+                              ^
+Function body:           def _run_erb_app47views47log47not_found46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Find Freq Entry</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( Frequency :params[:search_freq] Not found ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'Back', :action => "find" ).to_s); @output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:11:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb:31:in `find'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:5: syntax error
+...ency :params[:search_freq] Not found ).to_s); @output_buffer...
+                              ^) on line #5 of app/views/log/not_found.html.erb:
+2: 
+3: <%= printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) %>
+4: 
+5: <%= Frequency :params[:search_freq] Not found %><br />
+6: 
+7: <%= link_to 'Back', :action => "find" %>
+
+    app/views/log/not_found.html.erb:11:in `compile!'
+    app/controllers/log_controller.rb:31:in `find'
+
+Rendered rescues/_trace (207.0ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:36:21) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+ERROR: compiling _run_erb_app47views47log47not_found46html46erb RAISED compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:10: syntax error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:12: syntax error
+Function body:           def _run_erb_app47views47log47not_found46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Find Freq Entry</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "search_freq = params[:search_freq]\n"
+@output_buffer.concat(( Frequency #{search_freq} Not found ).to_s); @output_buffer.concat "<br />\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'Back', :action => "find" ).to_s); @output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:12:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb:31:in `find'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:10: syntax error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:12: syntax error) on line #10 of app/views/log/not_found.html.erb:
+7: 
+8: <%= link_to 'Back', :action => "find" %>
+
+    app/views/log/not_found.html.erb:12:in `compile!'
+    app/controllers/log_controller.rb:31:in `find'
+
+Rendered rescues/_trace (102.8ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:37:17) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;35;1mFrequency Load (1.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+ERROR: compiling _run_erb_app47views47log47not_found46html46erb RAISED compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:10: syntax error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:12: syntax error
+Function body:           def _run_erb_app47views47log47not_found46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Find Freq Entry</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "search_freq = params[:search_freq]\n"
+@output_buffer.concat "Frequency "; @output_buffer.concat(( #{search_freq}  ).to_s); @output_buffer.concat " Not found<br>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'Back', :action => "find" ).to_s); @output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:12:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb:31:in `find'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:10: syntax error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:12: syntax error) on line #10 of app/views/log/not_found.html.erb:
+7: 
+8: <%= link_to 'Back', :action => "find" %>
+
+    app/views/log/not_found.html.erb:12:in `compile!'
+    app/controllers/log_controller.rb:31:in `find'
+
+Rendered rescues/_trace (106.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:37:50) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+ERROR: compiling _run_erb_app47views47log47not_found46html46erb RAISED compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:11: syntax error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:13: syntax error
+Function body:           def _run_erb_app47views47log47not_found46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Find Freq Entry</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( search_freq = params[:search_freq] ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "Frequency "; @output_buffer.concat(( #{search_freq}  ).to_s); @output_buffer.concat " Not found<br>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'Back', :action => "find" ).to_s); @output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:13:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb:31:in `find'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:11: syntax error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:13: syntax error) on line #11 of app/views/log/not_found.html.erb:
+8: 
+9: <%= link_to 'Back', :action => "find" %>
+
+    app/views/log/not_found.html.erb:13:in `compile!'
+    app/controllers/log_controller.rb:31:in `find'
+
+Rendered rescues/_trace (104.5ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:39:01) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;35;1mFrequency Load (0.9ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+ERROR: compiling _run_erb_app47views47log47not_found46html46erb RAISED compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:11: syntax error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:13: syntax error
+Function body:           def _run_erb_app47views47log47not_found46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Find Freq Entry</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( search_freq = params[:search_freq] ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "Frequency "; @output_buffer.concat(( #{search_freq} ).to_s); @output_buffer.concat " Not found<br>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( link_to 'Back', :action => "find" ).to_s); @output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:13:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb:31:in `find'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:11: syntax error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:13: syntax error) on line #11 of app/views/log/not_found.html.erb:
+8: 
+9: <%= link_to 'Back', :action => "find" %>
+
+    app/views/log/not_found.html.erb:13:in `compile!'
+    app/controllers/log_controller.rb:31:in `find'
+
+Rendered rescues/_trace (100.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:39:10) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+ERROR: compiling _run_erb_app47views47log47not_found46html46erb RAISED compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:10: syntax error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:12: syntax error
+Function body:           def _run_erb_app47views47log47not_found46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Find Freq Entry</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( search_freq = params[:search_freq] ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "Frequency "; @output_buffer.concat(( #{search_freq} ).to_s); @output_buffer.concat " Not found<br>\n"
+@output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:12:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb:31:in `find'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:10: syntax error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:12: syntax error) on line #10 of app/views/log/not_found.html.erb:
+7: Frequency <%= #{search_freq} %> Not found<br>
+
+    app/views/log/not_found.html.erb:12:in `compile!'
+    app/controllers/log_controller.rb:31:in `find'
+
+Rendered rescues/_trace (100.9ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:39:40) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;35;1mFrequency Load (1.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+ERROR: compiling _run_erb_app47views47log47not_found46html46erb RAISED compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:10: syntax error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:12: syntax error
+Function body:           def _run_erb_app47views47log47not_found46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Find Freq Entry</h1>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( printf("************* NOT_FOUND.HTML.ERB %s *************\n", params[:search_freq]) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat(( search_freq = params[:search_freq] ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "Frequency "; @output_buffer.concat(( #{search_freq} ).to_s); @output_buffer.concat " Not found<br>\n"
+@output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:12:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/home/shall/ruby/radio/qso-log/app/controllers/log_controller.rb:31:in `find'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1327:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:10: syntax error
+/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb:12: syntax error) on line #10 of app/views/log/not_found.html.erb:
+7: Frequency <%= #{search_freq} %> Not found<br>
+
+    app/views/log/not_found.html.erb:12:in `compile!'
+    app/controllers/log_controller.rb:31:in `find'
+
+Rendered rescues/_trace (100.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:40:35) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;36;1mFrequency Load (0.9ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+Completed in 25ms (View: 10, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:41:03) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;35;1mFrequency Load (0.9ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+Completed in 25ms (View: 10, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:41:13) [GET]
+Rendering log/find
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:41:17) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"111"}
+  [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '111') [0m
+Rendering log/not_found
+Completed in 18ms (View: 3, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:41:50) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"111"}
+  [4;35;1mFrequency Load (1.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '111') [0m
+Rendering log/not_found
+Completed in 25ms (View: 10, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:41:53) [GET]
+Rendering log/find
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:41:59) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"111"}
+  [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '111') [0m
+Rendering log/not_found
+Completed in 17ms (View: 3, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:42:25) [GET]
+Rendering log/find
+Completed in 13ms (View: 5, DB: 0) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:42:31) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"111"}
+  [4;35;1mFrequency Load (0.9ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '111') [0m
+Rendering log/not_found
+Completed in 25ms (View: 10, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:42:42) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"111"}
+  [4;36;1mFrequency Load (0.9ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '111') [0m
+Rendering log/not_found
+Completed in 25ms (View: 11, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:42:55) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"111"}
+  [4;35;1mFrequency Load (0.9ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '111') [0m
+Rendering log/not_found
+Completed in 24ms (View: 10, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:43:02) [GET]
+Rendering log/find
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:44:01) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+Completed in 27ms (View: 10, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:44:32) [GET]
+Rendering log/find
+Completed in 31ms (View: 21, DB: 0) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:44:35) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;35;1mFrequency Load (1.0ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+Completed in 26ms (View: 11, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:45:18) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"1111"}
+  [4;36;1mFrequency Load (1.0ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE (frequency = '1111') [0m
+Rendering log/not_found
+Completed in 25ms (View: 11, DB: 1) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:47:09) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (2.2ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '12.34') [0m
+Rendering log/show
+Completed in 48ms (View: 32, DB: 2) | 200 OK [http://localhost/log/find]
+
+
+Processing FrequenciesController#edit (for 127.0.0.1 at 2009-08-17 17:47:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mFrequency Load (1.1ms)[0m   [0;1mSELECT * FROM "frequencies" WHERE ("frequencies"."id" = 1) [0m
+Rendering template within layouts/frequencies
+Rendering frequencies/edit
+Completed in 242ms (View: 224, DB: 1) | 200 OK [http://localhost/frequencies/1/edit]
