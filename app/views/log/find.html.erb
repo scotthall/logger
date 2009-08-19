@@ -1,0 +1,17 @@
+<h1>Logger Find Freq Entry</h1>
+
+<%= printf("************* FIND.HTML.ERB %s *************\n", @search_freq) %>
+
+<% form_for(@search_freq) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :search_freq %><br />
+    <%= f.text_field :search_freq %>
+  </p>
+  <p>
+    <%= f.submit "Find" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', :action => "index" %>

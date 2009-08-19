@@ -7295,3 +7295,33 @@ Completed in 73ms (View: 69, DB: 0) | 200 OK [http://localhost/log]
 Processing LogController#find (for 127.0.0.1 at 2009-08-19 08:15:05) [GET]
 Rendering log/find
 Completed in 77ms (View: 15, DB: 0) | 200 OK [http://localhost/log/find]
+
+
+Processing FrequenciesController#new (for 127.0.0.1 at 2009-08-19 08:23:01) [GET]
+Rendering template within layouts/frequencies
+Rendering frequencies/new
+Completed in 60ms (View: 42, DB: 0) | 200 OK [http://localhost/frequencies/new]
+
+
+Processing FrequenciesController#index (for 127.0.0.1 at 2009-08-19 08:23:20) [GET]
+  [4;36;1mFrequency Load (2.0ms)[0m   [0;1mSELECT * FROM "frequencies" [0m
+Rendering template within layouts/frequencies
+Rendering frequencies/index
+Completed in 63ms (View: 49, DB: 2) | 200 OK [http://localhost/frequencies]
+
+
+Processing LogController#index (for 127.0.0.1 at 2009-08-19 08:23:51) [GET]
+Rendering log/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/log]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-19 08:23:58) [GET]
+Rendering log/find
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-19 08:24:03) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (2.2ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '12.34') [0m
+Rendering log/show
+Completed in 47ms (View: 27, DB: 2) | 200 OK [http://localhost/log/find]
