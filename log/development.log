@@ -7278,3 +7278,20 @@ Processing FrequenciesController#edit (for 127.0.0.1 at 2009-08-17 17:47:19) [GE
 Rendering template within layouts/frequencies
 Rendering frequencies/edit
 Completed in 242ms (View: 224, DB: 1) | 200 OK [http://localhost/frequencies/1/edit]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-17 17:59:55) [POST]
+  Parameters: {"commit"=>"Find", "authenticity_token"=>"k9vd8caLrzAUlA7izZvflKqxCToQ09Xd3ZPxlsZ6q7U=", "search_freq"=>"12.34"}
+  [4;35;1mFrequency Load (2.1ms)[0m   [0mSELECT * FROM "frequencies" WHERE (frequency = '12.34') [0m
+Rendering log/show
+Completed in 65ms (View: 38, DB: 2) | 200 OK [http://localhost/log/find]
+
+
+Processing LogController#index (for 127.0.0.1 at 2009-08-19 08:15:01) [GET]
+Rendering log/index
+Completed in 73ms (View: 69, DB: 0) | 200 OK [http://localhost/log]
+
+
+Processing LogController#find (for 127.0.0.1 at 2009-08-19 08:15:05) [GET]
+Rendering log/find
+Completed in 77ms (View: 15, DB: 0) | 200 OK [http://localhost/log/find]
