@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Aug 17 18:06:58 2009
+;; Created Tue Aug 25 13:55:30 2009
 ;; Desktop file format version 206
 ;; Emacs version 22.3.1
 
@@ -16,12 +16,45 @@
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/shall/ruby/radio/qso-log/app/views/log/show.html.erb"
-  "show.html.erb"
+  "/home/shall/ruby/radio/qso-log/app/models/frequency.rb"
+  "frequency.rb"
+  'ruby-mode
+  nil
+  434
+  '(211 t)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/depot/app/models/order.rb"
+  "order.rb"
+  'ruby-mode
+  nil
+  614
+  '(456 t)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/app/controllers/frequencies_controller.rb"
+  "frequencies_controller.rb"
+  'ruby-mode
+  nil
+  53
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/depot/app/views/store/checkout.html.erb"
+  "checkout.html.erb"
   'html-mode
   nil
-  152
-  '(121 t)
+  1
+  '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . raw-text-unix)))
@@ -31,22 +64,11 @@
   "log_controller.rb"
   'ruby-mode
   nil
-  391
-  '(383 t)
+  387
+  '(46 t)
   nil
   nil
-  '((indent-tabs-mode) (buffer-file-coding-system . raw-text-unix) (overwrite-mode)))
-
-(desktop-create-buffer 206
-  "/home/shall/ruby/radio/qso-log/app/views/log/index.html.erb"
-  "index.html.erb<2>"
-  'html-mode
-  nil
-  111
-  '(100 t)
-  nil
-  nil
-  '((buffer-file-coding-system . raw-text-unix)))
+  '((indent-tabs-mode) (buffer-file-coding-system . raw-text-unix)))
 
 (desktop-create-buffer 206
   "/home/shall/ruby/radio/qso-log/app/views/log/not_found.html.erb"
@@ -60,12 +82,100 @@
   '((buffer-file-coding-system . raw-text-unix)))
 
 (desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/app/views/layouts/frequencies.html.erb"
+  "frequencies.html.erb"
+  'html-mode
+  nil
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/notes.txt"
+  "notes.txt"
+  'text-mode
+  nil
+  2155
+  '(1 t)
+  nil
+  nil
+  '((buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/app/views/layouts/log.html.erb"
+  "log.html.erb"
+  'html-mode
+  nil
+  356
+  '(329 t)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/public/stylesheets/qso-log.css"
+  "qso-log.css"
+  'css-mode
+  nil
+  1555
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
   "/home/shall/ruby/radio/qso-log/app/views/log/find.html.erb"
   "find.html.erb<2>"
   'html-mode
   nil
   34
   '(34 t)
+  nil
+  nil
+  '((buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/app/views/frequencies/index.html.erb"
+  "index.html.erb"
+  'html-mode
+  nil
+  93
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/public/stylesheets/scaffold.css"
+  "scaffold.css"
+  'css-mode
+  nil
+  284
+  '(284 t)
+  nil
+  nil
+  '((buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/app/views/log/index.html.erb"
+  "index.html.erb<2>"
+  'html-mode
+  nil
+  133
+  '(106 t)
+  nil
+  nil
+  '((buffer-file-coding-system . raw-text-unix)))
+
+(desktop-create-buffer 206
+  "/home/shall/ruby/radio/qso-log/app/views/log/show.html.erb"
+  "show.html.erb"
+  'html-mode
+  nil
+  152
+  '(121 t)
   nil
   nil
   '((buffer-file-coding-system . raw-text-unix)))

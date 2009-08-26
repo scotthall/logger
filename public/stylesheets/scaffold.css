@@ -4,6 +4,8 @@ body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size:   13px;
   line-height: 18px;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 pre {
@@ -27,7 +29,7 @@ a:hover { color: #fff; background-color:#000; }
   border: 2px solid red;
   padding: 7px;
   padding-bottom: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 20px;/find
   background-color: #f0f0f0;
 }
 
