@@ -19,6 +19,14 @@ body, p, ol, ul, td {
   color: #000000;
 }
 
+p.qqq {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
 /* Styles for products/index */
 
 #product-list table {

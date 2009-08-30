@@ -44,7 +44,7 @@ class FrequenciesController < ApplicationController
 
     respond_to do |format|
       if @frequency.save
-        flash[:notice] = 'Frequency was successfully created.'
+        flash[:notice] = 'Entry was successfully created.'
         format.html { redirect_to(@frequency) }
         format.xml  { render :xml => @frequency, :status => :created, :location => @frequency }
       else
